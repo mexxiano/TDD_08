@@ -1,0 +1,19 @@
+<testsuites>
+	<testsuite name="AllTests" tests="11">
+		<testcase classname="AllTests" name="thisIsATest">
+			<failure message="../src/Test.cpp:13 thisIsATest: start writing tests">
+thisIsATest: start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="createLightController"/>
+		<testcase classname="AllTests" name="RememberTheLastLightIdControlled"/>
+		<testcase classname="AllTests" name="createFakeTimeController"/>
+		<testcase classname="AllTests" name="setFakeTimeController"/>
+		<testcase classname="AllTests" name="ScheduleOnEverydayItsTime"/>
+		<testcase classname="AllTests" name="ScheduleOffEverydayItsTime"/>
+		<testcase classname="AllTests" name="ScheduleTuesdayButItsMonday"/>
+		<testcase classname="AllTests" name="ScheduleTuesdayAndItsTuesday"/>
+		<testcase classname="AllTests" name="ScheduleWeekEndItsFriday"/>
+		<testcase classname="AllTests" name="ScheduleWeekEndItsSaturday"/>
+	</testsuite>
+</testsuites>
